@@ -1,0 +1,48 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+/logs/
+/log/
+
+# Cache
+/cache/
+/tmp/
+*.cache
+
+# Build / compiled assets
+/public/build/
+/public/hot/
+/dist/
+
+# Upload directories
+/storage/
+/uploads/
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# PHP
+*.phar
+composer.lock
+
+# Coverage / tests
+/coverage/
+.phpunit.result.cache
+.phpunit.cache/
+
+# OS
+.DS_Store
+desktop.ini
